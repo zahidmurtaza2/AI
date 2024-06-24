@@ -1,71 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ad Code Generator</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        padding: 20px;
-    }
-    textarea {
-        width: 100%;
-        height: 200px;
-        margin-bottom: 10px;
-        padding: 10px;
-        font-size: 14px;
-        border: 1px solid #ccc;
-    }
-    button {
-        background-color: #4CAF50;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-    }
-    button:hover {
-        background-color: #45a049;
-    }
-    .result-container {
-        margin-top: 20px;
-    }
-    .result-code {
-        font-size: 14px;
-        border: 1px solid #ccc;
-        padding: 10px;
-        white-space: pre-wrap;
-    }
-</style>
-</head>
+<html>
+<head><title>404 Not Found</title></head>
 <body>
-    <h2>Ad Code Generator</h2>
-    <textarea id="inputCode" placeholder="Paste your ad code here..."></textarea>
-    <button onclick="generateCode()">Generate</button>
-    <div class="result-container">
-        <h3>Generated Code:</h3>
-        <div id="generatedCode" class="result-code">Generated code will appear here...</div>
-    </div>
-
-    <script>
-        function generateCode() {
-            const inputCode = document.getElementById('inputCode').value.trim();
-
-            // Extract the ad ID from the input code
-            const adIdRegex = /'key'\s*:\s*'([^']+)'/;
-            const match = inputCode.match(adIdRegex);
-            if (!match || match.length < 2) {
-                alert('Invalid input. Make sure to paste the entire ad code.');
-                return;
-            }
-            const adId = match[1];
-
-            // Generate the modified code
-            const generatedCode = `&lt;script&gt;\nconst adId = &#039;${adId}&#039;; \n&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/dG1EVxadtFa113KTFf.js&quot;&gt;&lt;/script`;
-
-            // Display the generated code
-            document.getElementById('generatedCode').innerText = generatedCode;
-        }
-    </script>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.21.6</center>
 </body>
 </html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
